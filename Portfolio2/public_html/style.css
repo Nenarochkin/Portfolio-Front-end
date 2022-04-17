@@ -1,0 +1,311 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 15 апр. 2022 г., 21:31:58
+    Author     : DreamStore
+*/
+@font-face {
+    font-family: 'proximanova_black';
+
+    src:url('../fonts/Proxima Nova/proximanova_black.otf');}
+body{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width:30px;
+    height: 30px;
+}
+.social_icon_header{
+    width:10px;
+    height: 10px;
+}
+.menu_text{
+    color:black;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+}
+.absolute{
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.line_border{
+    border:2px solid red;
+    border-bottom: 2px saddlebrown;
+}
+.content_image{
+    width:100%;
+    
+}
+.title{
+   font-family: 'proximanova_black';
+   font-size: 5vw;
+  color: rgb(207,56,238);
+background: linear-gradient(90deg, rgba(207,56,238,1) 1%, rgba(235,49,152,1) 74%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.section_title{
+   font-family: 'proximanova_black';
+   font-size: 36px;
+  color: rgb(207,56,238);
+background: linear-gradient(90deg, rgba(207,56,238,1) 1%, rgba(235,49,152,1) 74%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+.section_description{
+    font-family: 'proximanova_black';
+   font-size: 16px;
+  color: black;
+/*background: linear-gradient(90deg, rgba(207,56,238,1) 1%, rgba(235,49,152,1) 74%);
+-webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;*/
+  font-weight: 300;
+  border-bottom-width: 5px; /* Толщина линии внизу */
+    border-bottom-style: solid; /* Стиль линии внизу */
+    border-bottom-color: #efefef; /* Цвет линии внизу */
+ position: relative;
+    border-left-width: 5px; /* Толщина линии внизу */
+    border-left-style: solid; /* Стиль линии внизу */
+    border-left-color: #efefef; /* Цвет линии внизу */
+      line-height: 1.5;
+      text-indent: 5px;
+    padding: 0 0 15px 0;
+    
+}
+.section_description:before{
+    content:"";
+     
+            position:absolute;
+            left:0;
+            top:0;
+            
+            border-top-width: 5px; /* Толщина линии внизу */
+    border-top-style:    solid; /* Стиль линии внизу */
+    border-bottom-color: #efefef; 
+    color:#efefef;
+    width: 25px;
+    
+}
+
+.border_mini{
+    
+    width: 5px; /* Толщина линии внизу */
+    border-top-style:    solid; /* Стиль линии внизу */
+    border-top-width: 5px;
+    
+}
+.img{
+   position: relative;
+    z-index: 0;
+}
+.img_base{
+     position: relative;
+    z-index: 0;
+}
+.btn{
+    width:287px;
+    height: 47px;
+    border-radius: 22px;
+    text-align: center;
+    line-height:  0.5;
+   background: rgb(216,87,238);
+background: linear-gradient(90deg, rgba(216,87,238,1) 1%, rgba(221,75,199,1) 51%);
+color:white;
+font-size: 18px;
+ font-family: 'proximanova_black';
+   font-size: 36px;
+     font-weight: 300;
+}
+/*section 3*/
+.round{
+    width:50px;
+    height: 50px;
+    padding: 32px;
+    border-radius: 50%;
+    border:2px solid #d44cf1;
+    align-content:  center;
+    text-align: center;
+    position: relative;
+}
+.round_image{
+    width:41px;
+    height: 41px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.touch_relative{
+    position: relative;
+  
+    width:50px;
+    height: 50px;
+    padding: 32px;
+    border-radius: 50%;
+    
+    align-content:  center;
+    text-align: center;
+}
+.height_section2{
+    height:auto;
+}
+.touch{
+    width: 5px;
+    height: 5px;
+    background: #d44cf1;
+    border: 1px solid #d44cf1;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.round_desc{
+    font-family: 'proximanova_black';
+   font-size: 16px;
+     font-weight: 700;
+     
+}
+/* section*/
+.img2{
+   position: relative;
+    z-index: 0;
+}
+.absolute2{
+     position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.size_img_portfolio{
+    width:1000px;
+}
+.borders{
+    border:5px solid white;
+   width: 100%;
+   height: 100px;
+ text-align: left;
+}
+.border_ramka
+{
+    color:white;
+    
+    font-size:24px;
+    font-weight: 700;
+     font-family: 'proximanova_black';
+    
+}
+.img-box1 {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+ 
+.img-box1::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    border: 2px solid white;
+    z-index: 2;
+}
+ 
+.img-box2 {
+    display: block;
+    position: relative;
+    border: 2px solid #ff0000;
+    width: 380px;
+    height: 180px;
+}
+ 
+.img-box2 img {
+    position: absolute;
+    display: block;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+}
+/*section */
+.lines{
+    width:250px;
+    border: 1px solid #e3e3e3;
+    border-bottom:  1px solid #e3e3e3;
+}
+.relative{
+    position: relative;
+    text-align: center;
+}
+.vertical_border{
+  
+    border-left: 5px solid #de4bc6;
+}
+.text{
+    background: #f7f7f7;
+    font-size: 14px;
+    font-family: 'proximanova_black';
+    color:#dfe3e8;
+    
+}
+/* section*/
+.input_form{
+    outline: 0 !important;
+
+border-bottom:   2px  solid #cccccc;
+line-height: 0.5;
+border-left: 0px;
+border-right: 0px;
+border-top: 0px;
+height: 50px;
+width: 100%;
+
+}
+.input_form[type='text']::placeholder{
+    color:red;
+     font-family: 'proximanova_black';
+     font-size: 12px;
+    
+  
+   display: flex;
+
+}
+.input_form_hidden{
+    height: 5px;
+}
+.size_icon{
+    width:20px;
+    height: 20px;
+}
+/*footer*/
+.absolute_footer{
+     position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.footer_color{
+    color:white;
+    
+    font-size:14px;
+    font-weight: 700;
+     font-family: 'proximanova_black';
+    
+}
+.height_section_footer{
+    height: auto;
+}
