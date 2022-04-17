@@ -1,0 +1,380 @@
+body
+{
+  margin: 0;
+  padding: 0;
+}
+.BlockBestSeller
+{
+  height: 558px;
+}
+.position{
+    position: relative;
+    z-index: 1;
+    top:-755px;
+}
+.img2{
+    position: relative;
+    z-index: 0;
+}
+.mainPhoto2.absolute{
+     position: absolute;
+    bottom: 0;
+    top:0;
+  
+    z-index: 2;
+    width: 100%;
+   height: 100%;
+}
+.absolute{
+    position: absolute;
+    bottom: 0;
+    top:0;
+  
+    z-index: 2;
+    width: 100%;
+   
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url('../fonts/Montserrat-Bold.ttfMontserrat-Medium.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url('../fonts/Montserrat-Black.ttfMontserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'grand-hotel-regular';
+
+    src:url('../fonts/GrandHotel-Regular.ttf');}
+  ul li {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  ul li a {
+    display: inline-block;
+    padding-left: 22px;
+    font-family: "Montserrat-Medium";
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    ;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    ;
+  }
+
+  a:hover {
+    color: #ffff;
+  }
+
+  .main {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+
+  .mainPhoto {
+    width: auto;
+    height: auto;
+    
+  }
+
+  .mainPhoto2 {
+    width: inherit;
+    height: 2005px;
+    
+    z-index: 0;
+    
+  }
+  .mainPhoto3 {
+    width: inherit;
+    height: 791px;
+    position: relative;;
+    z-index: 0;
+  }
+  
+  .BGBlock8{
+      background: #303030;
+  }
+  .putBlock8{
+      transform: translate(0,-2260px);
+  }
+  .font16{
+      font-size: 16px;
+  }
+  .icon{
+      width:30px;
+      height: 30px;
+      border: 1px solid transparent;
+      border-radius:50%;
+  }
+  .title_color646464{
+      color:#646464;
+  }
+  .heightBGBlock8{
+      height: 798px;
+  }
+
+  .putOnImageFood4 {
+    transform: translate(0, -1944px) !important;
+  }
+  .putOnImageFood4Minus555px {
+    transform: translate(0, -555px) !important;
+  }
+  .row.NoMX
+  {
+      margin: 0!important;
+      padding: 0!important;
+  }
+  .putOnImageFood4Minus2244 {
+    transform: translate(0, -264px) !important;
+  }
+  .putOnImageFood4MinusFood5Img {
+    transform: translate(0, -1556px) !important;
+  }
+  .putOnImageFood4MinusFood6Img2{
+      transform: translate(0, -1501px) !important;
+  }
+  .putOnImageFood4Minusbtn {
+    transform: translate(0, -323px) !important;
+  }
+
+  .putOnImageMinus200 {
+    transform: translate(0, -200px) !important;
+  }
+  .putOnImageMinus1900{
+    transform: translate(0, -1900px) !important;
+  }
+  .putOnImageMinusPlus30 {
+    transform: translate(0, 30px) !important;
+  }
+.putOnImageFood4Chicken{
+  transform: translate(0, -2335px) !important;
+}
+  #search {
+    cursor: pointer;
+    ;
+  }
+
+  .logo {
+    width: 184px;
+    height: 55px;
+    left: 61px;
+    cursor: pointer;
+    top: 15px;
+    position: absolute;
+    ;
+    z-index: 2;
+  }
+
+  .title_Grand_Hote {
+    font-family: 'grand-hotel-regular', sans-serif;
+  }
+
+  .title_Montserrat_Bold {
+    font-family: 'Montserrat-Bold', Bold;
+  }
+
+  .top210 {
+    top: 210px;
+  }
+
+  .mb0 {
+    margin-bottom: 0 !important;
+  }
+  .mainPhoto4{
+      height: 796px;
+      width:inherit;
+  }
+  .font125 {
+     font-size: 11vw;
+  }
+.font45{
+  font-size: 3vw;
+}
+.font74{
+    font-size: 7vw;
+}
+  .font42 {
+    font-size: 42px;
+  }
+
+  .font75 {
+    font-size: 75px;
+  }
+
+  .font17 {
+    font-size: 17px;
+  }
+
+  .font30 {
+    font-size: 2.7vw;
+    
+  }
+
+  .font51 {
+    font-size: 3vw;
+  }
+
+  .font25 {
+    font-size: 1.5vw;
+  }
+  .font_footer_text{
+       font-size: 2.5vw;
+  }
+   .font_btn {
+    font-size: 2.5vw;
+  }
+  .font_btn_submit{
+       font-size: 1.5vw;
+  }
+ 
+.minusMargin{
+  margin-top: -2rem!important;
+}
+  .title_colorffc200 {
+    color: #ffc200;
+  }
+
+  .centerTextalign {
+    text-align: center;
+  }
+
+  .title_color333333 {
+    color: #333333;
+  }
+
+  .body_color333333 {
+    color: #333333;
+  }
+
+  .body_colorffff {
+    color: #ffff;
+  }
+
+  .margin-bottom0rem {
+    margin-bottom: 3rem !important;
+  }
+
+  .my-4.top {
+    margin-top: 9rem !important;
+  }
+
+  .bodyText {
+    font-family: 'Montserrat-Medium', cursive;
+    z-index: 2;
+    ;
+  }
+
+  .btnYellow {
+    width: 248px;
+    height: 55px;
+    background-color: #ffc200;
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Montserrat-Medium', cursive;
+  }
+  .btnYellow2 {
+    width: 248px;
+    height: 55px;
+    background-color: #ffc200;
+    color: black;
+    font-size: 19px;
+    text-align: center;
+    font-family: 'Montserrat-Medium', cursive;
+  }
+  .BGYellow{
+       background-color: #ffc200;
+  }
+  .height{
+      height: 44px;
+  }
+  .topMain {
+    height: 798px;
+    width: 100%;
+  }
+
+  .Menu {
+    position: relative;
+    z-index: 3;
+  }
+
+  .MarginTopHeader {
+    margin-top: 46px;
+  }
+
+  .roundImage img {
+  
+    width: auto;
+
+    border: 1px solid red;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+  }
+
+  .roundImageFood4 img {
+    
+    width: 400px;
+    
+    border: 1px solid red;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+  }
+  p{
+      height: auto;
+  }
+  .height8888{
+      height: auto;
+  }
+  .roundCard {
+    position: relative;
+    z-index: 2;
+    
+    width:11vw;
+height: 11vw;
+    border: 4px solid white;
+    border-radius: 50%;
+    
+  }
+  
+  .bold{
+    font-weight: 900;
+  }
+  .put{
+      transform: translate(0, -1846px)!important;
+  }
+  .font100{
+      font-size: 15vw;
+  }
+  .lineHeight1{
+      line-height: 1;
+  }
+  .font14{
+      font-size: 14px;
+  }
+  .row-flex {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-ms-flex-wrap: wrap;
+flex-wrap: wrap;
+}
+.img-wrap{
+    position: relative;
+}
+.row-flex {
+  display: flex;
+  flex-flow: wrap;
+}
+.my12rem{
+    padding-top: 12rem;
+}
