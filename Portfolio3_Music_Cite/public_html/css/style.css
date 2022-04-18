@@ -1,0 +1,236 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 апр. 2022 г., 21:25:27
+    Author     : DreamStore
+*/
+@font-face{
+    font-family: 'helveticaneuecyr-blackitalic';
+    src:url('../fonts/helveticaneuecyr-blackitalic.ttf');
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+.relative{
+    position: relative;
+    z-index: 0;
+}
+.relative2{
+    position: relative;
+    height: 1000px;
+    z-index: 2;
+}
+.absolutes{
+    position: absolute;
+     top:10%;
+    bottom: 0;
+    
+    width: 100%;
+}
+.absolutes2{
+    position: absolute;
+     bottom:  55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.navigation{
+    width:30px;
+    cursor:pointer;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.menu_text{
+    font-size: 1vw;
+    color:white;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.line_menu_text{
+    color:#f23005;
+    border-bottom: 3px solid #f23005;
+    width:30px;
+   margin-left: 30px;
+   margin-top: 5px;
+}
+.color_red{
+    color: #f23005;
+     
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.color_red_music{
+    color: #f23005;
+     font-size: 4vw;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.title_content{
+    font-size: 2vw;
+    color:white;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.color_white{
+    color:white;
+    font-size: 4vw;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.Big_title_content{
+    font-size: 80px;
+    color:red;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.Big_title_content:before{
+    content: '';
+    font-size: 80px;
+    color:red;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.Big_title_content:after{
+    content: '';
+    font-size: 80px;
+    color:white;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.description_content{
+    font-size: 1.5vw;
+    color:white;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.button_start_now{
+    font-size: 11px;
+    color:white;
+    border:1px solid #fff;
+    cursor: pointer;
+     font-family: 'helveticaneuecyr-blackitalic';
+     padding: 10px;
+     text-align: center;
+     width:150px;
+}
+.button_learn_more{
+    font-size: 11px;
+    color:white;
+    text-align: center;
+    border:1px solid #fff;
+     font-family: 'helveticaneuecyr-blackitalic';
+     padding: 10px;
+     width:150px;
+     background: #f23005;
+       cursor: pointer;
+}
+.kvadrat_title{
+ font-size: 18px;
+    color:white;
+    border:1px solid #fff;
+     font-family: 'helveticaneuecyr-blackitalic';
+     
+     width:100px;
+     height:100px;
+    padding-top: 25%;
+    padding-bottom: 20%;
+     text-align: center;
+         
+     background: #f23005;   
+}
+.kvadrat_desc{
+    font-size: 8px;
+    color:white;
+   text-align: center;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.margin_top{
+    margin-top: 2rem;
+}
+.img_comp{
+    width:760px;
+}
+.lenta_title{
+    font-size: 54px;
+    color:white;
+   text-align: center;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.lenta_desc{
+    font-size: 1.5vw;
+    color:white;
+   text-align: center;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.title_content2{
+    font-size: 18px;
+    color:white;
+   text-align: center;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.desc_content2{
+    font-size: 1vw;
+    color:white;
+   text-align: center;
+     font-family: 'helveticaneuecyr-blackitalic';
+}
+.polosa_red{
+    height: 340px;
+    width:100%;
+    background: #f23005;
+}
+.text_title_polosa{
+    font-size: 3vw;
+    font-family: 'helveticaneuecyr-blackitalic';
+    color:white;
+    
+}
+.text_desc_polosa{
+    font-size: 1.4vw;
+    font-family: 'helveticaneuecyr-blackitalic';
+    color:white;
+    text-align: center;
+}
+.top300{
+    margin-top: 300px;
+}
+.bg_polosa{
+    background: #f23005;
+  border:2px solid red;
+ height: 340px;
+ width: 100%;
+ 
+}
+.bg_polosa2{
+    background: #c42400;
+  border:2px solid red;
+ height: 340px;
+ width: 100%;
+ 
+}
+.prefooter_title{
+    font-size: 1.3vw;
+    color:white;
+    font-weight: 300;
+     font-family: 'helveticaneuecyr-blackitalic';
+    
+}
+.prefooter_desc{
+    font-size: 1.1vw;
+    color:white;
+    font-weight: 300;
+     font-family: 'helveticaneuecyr-blackitalic';
+    
+}
+.img_leptop{
+    width:400px;
+}
+.img_footer{
+    width:100%;
+}
+.img_header{
+    width:100%;
+    height: 100%;
+}
