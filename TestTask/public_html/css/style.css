@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+body
+{
+  margin: 0;
+  padding: 0;
+}
+
+.relative{
+    position: relative;
+    z-index: 0;
+}
+
+.absolute{
+    position: absolute;
+    bottom: 0;
+    top:0;
+    z-index: 2;
+    width: 100%;
+   
+}
+
+
+
+  a {
+    color: #4cb649;
+    text-decoration: none;
+    ;
+  }
+
+  a:hover {
+    color: #4cb649;
+  }
+
+  /*header*/
+  .border_ramka{
+      border:1px solid #d7d8d9;
+      border-left: 0px;
+  }
+  
+  .img_header{
+      width:597px;
+      height: 397px;
+  }
+  .header_right_desc{
+      font-family: "Lobster-Regular";
+      font-size: 24px;
+      font-weight: 100;
+      color:#22252e;
+      padding: 50px 50px 50px 50px;
+  }
+  .author{
+      font-family: "Lobster-Regular";
+      font-size: 14px;
+      color:#22252e;
+     margin-right:  5px;
+     
+  }
+  .calendar{
+    font-family: "Lobster-Regular";
+      font-size: 14px;
+      color:#8f969f; 
+     
+  }
+  .vertical_border{
+      border-left: 2px solid #8f969f;
+     height: 4px;
+     width:4px;
+      margin-right:  5px;
+  }
+  .copyright{
+       font-family: "Lobster-Regular";
+      font-size: 12px;
+      color:#4cb649; 
+     
+  }
+  .icon_coments{
+      width:25px;
+      height: 25px;
+      display: block;
+     
+  }
+  #comment{
+      
+  }
+  .count_comments{
+      font-family: "Lobster-Regular";
+      font-size: 12px;
+      color:#889099; 
+      
+      
+  }
+  /*header menu*/
+  .bg_header_menu{
+      width:100%;
+      background: #f7f7f7;
+      
+      border:2px solid #f7f7f7;
+      padding: 2%;
+  }
+  .tags{
+       font-family: "Lobster-Regular";
+      font-size: 10px;
+      color:#323642;  
+  }
+  .menu_grey{
+       font-family: "Lobster-Regular";
+      font-size: 10px;
+      color:#323642;  
+  }
+  .meunu_item{
+      font-family: "Lobster-Regular";
+      font-size: 10px;
+      color:#4cb649;  
+  }
+ 
+  /*Content left*/
+  .title_content_left{
+      font-family: "Lobster-Regular";
+      font-size: 32px;
+      color:#22252e;  
+  }
+  .img_content_left{
+      width:280px;
+      height: 179px;
+  }
+  .desc_content_left{
+      font-family: "Lobster-Regular";
+      font-size: 20px;
+      color:#22252e;  
+  }
+  .goverments_content_left{
+      font-family: "Lobster-Regular";
+      font-size: 12px;
+      color:#4cb649;  
+  }
+  /*Content right*/
+  .img_content_right_bells{
+      width:30px;
+      height: 40px;
+  }
+  .ul{
+       
+  }
+  .img_content_right{
+      width:339px;
+      height: 445px;
+  }
+  .bottom_border{
+      border-bottom: 2px solid #ebeced;
+      width: 100%;
+  }
+  .colocol{
+      width:30px;
+  }
+  .vertical_border2{
+       border-left: 2px solid #ebeced; /* Линия слева от текста */
+    
+    height: 90%;
+      
+  }
+  .horizontal_line{
+      border-bottom:  2px solid #ebeced;
+      width:90%;
+  }
+  .roungGreen{
+      width:2px;
+      height: 2px;
+      border-radius: 50%;
+  }
+  .tags{
+      
+     
+      
+  }
+  .tags:before{
+     content: "\2022";  
+  color: #4cb649; 
+  margin-left: -1em;
+  width: 1em;
+  
+  
+      
+  }

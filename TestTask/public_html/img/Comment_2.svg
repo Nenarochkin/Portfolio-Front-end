@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 588 660" width="588" height="660">
+	<title>Comment_2</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #889099;stroke-width: 1.5 } 
+	</style>
+	<path id="Comment_2" class="shp0" d="M588 44.99L588 499.73C588 523.01 571.46 539.16 551.25 539.16L304.29 539.16L106.65 654.77C88.35 664.88 73.5 660.95 73.5 637.58L73.5 539.16L36.75 539.16C16.54 539.16 0 523.01 0 499.73L0 44.99C0 21.71 16.54 0.67 36.75 0.67L551.25 0.67C571.46 0.67 588 21.71 588 44.99Z" />
+</svg>
